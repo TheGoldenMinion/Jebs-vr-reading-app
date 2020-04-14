@@ -1910,8 +1910,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
 --- !u!4 &91904632 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4000012551454130, guid: a475880e7da0e9548aa05cb7933752cd,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 91904631}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &106318360
@@ -28955,7 +28954,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 869d390e50ac6df4c86795db66e80e74, type: 2}
+  - {fileID: 2100000, guid: 8846fe6839e30f443803b0d9925b380b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
