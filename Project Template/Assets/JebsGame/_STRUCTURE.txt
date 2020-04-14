@@ -1,0 +1,43 @@
+/*
+*
+*	PLEASE FOLLOW THE FOLLOWING FOLDER TREE STRUCTURE
+*
+*/
+
+	|- ...
+	|- Assets
+		|- JebsGame
+		|	|- Animations
+		|	|- Audio
+		|	|	|- Dialogue
+		|	|	|- Music
+		|	|	|- SFX
+		|	|- Materials
+		|	|	|- General			*Plastic_Blue, Alpha_Green, Wood_Light
+		|	|	|- SpecificPrimitives	*SaberRay, crab_body, Tutorial_Screen1
+		|	|	|- Sprites
+		|	|- Models
+		|	|	|- Static
+		|	|	|	|- {model}
+		|	|	|	|	|- {specific animations, materials, textures}
+		|	|	|- Rigged
+		|	|	|	|- {model}
+		|	|	|	|	|- {specific animations, materials, textures}
+		|	|- Prefabs
+		|	|	|- (feel free but stay organized and clean)
+		|	|- Resources
+		|	|- Scenes
+		|	|	|- Levels
+		|	|	|	|- {levelname}
+		|	|	|	|	|- Lightmap
+		|	|	|- Other
+		|	|- Scripts
+		|	|	|- Editor
+		|	|- Shaders
+		|- ...
+		|- TextMesh Pro
+		|- UnityXR.OVR.GlueCode
+		|- UnityXR_Template
+		|- VRTK_Template
+		|- XR
+		

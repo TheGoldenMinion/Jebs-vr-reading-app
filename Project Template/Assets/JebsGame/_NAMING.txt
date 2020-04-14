@@ -1,0 +1,107 @@
+/*
+*
+*	PLEASE FOLLOW THIS FILE NAMING CONVENTION
+*
+*/
+
+	1.-	SCRIPTS
+		[.cs,.shader,.txt]
+		
+		Changing an existing script name can cause problems
+		
+		ARE YOU GOING TO CREATE A NEW SCRIPT?
+		DO THIS:
+		
+			-	First capital letter followed by lower case letters for each word
+			-	Don't use spaces or special characters
+			-	Don't include your name, date or version
+			-	Be concise (2-3 words is perfect)
+			
+				Good:
+				
+					RawTracker.cs
+					CatMindEstimator.cs
+					RandomGenerator.cs
+					
+				Bad:
+				
+					_rawTracker.cs
+					rawtracker.cs
+					raw tracker.cs
+					MatthewsRawTracker.cs
+					RawTracker_v2.cs
+					TheNameOfThisFileIsTooLongToBeValid.cs
+					
+		PLEASE, KEEP CODE CLEAN
+		
+			-	Group your attributes by headers and keep your inspector view friendly
+			-	Keep everything abstract and try to make your code multipurpose
+			
+				Good:
+					
+					[Header("Objects")]
+					public Transform receiver;
+					public Transform relativeTo;
+					
+					[Header("Debugging")]
+					public bool bypassValues = false;
+					
+				Bad:
+				
+					public Transform phobos;
+					public Transform mars;
+					public bool bypassValues = false;
+		
+	2.-	ASSETS (EDITABLE FROM UNITY)
+		[.mat,.fbx,.prefab,.jpg,.png,.tif,.wav,.mp3]
+		
+		Changing an existing asset name is not problematic
+		* Its references will be updated automatically
+		
+		ARE YOU GONG TO CREATE/EDIT AN ASSET?
+		DO THIS:
+
+			-	Don't include your name, date or version
+			-	Be concise (2-4 words is perfect)
+
+			Good:
+			
+				SmallChest.mat
+				PirateTutorial_Part1.mp3
+				SpaceShip_Interior_LOD2.fbx
+				
+			Bad:
+			
+				SmallChestByAlan.mat
+				SmallChest_v2.mat
+				Small_Chest_But_Now_WithBetterReflections.Alan.v2.fbx *Too long
+				aintcareaboutconventions.fbx
+		
+		DO YOU WANT TO PRESERVE MULTIPLE VERSIONS OF AN ASSET?
+		DO THIS:
+		
+			-	Create a new folder where your asset is located
+			-	Add there all your versions
+			-	Stay ordered. Avoid versioning if possible
+			
+			Good:
+			
+				|- Prefabs
+				|	|- Cup
+				|	|	|- CupStatic.prefab
+				|	|	|- NewCup_Animated.prefab
+				|	|	|- Cup_FINAL.prefab
+				|	|- Enemy
+				|	|	|- Enemy1.prefab
+				|	|	|- Enemy_temporal.prefab
+				|	|	|- Enemy2.prefab
+			
+			Bad:
+			
+				|- Prefabs
+				|	|- CupStatic.prefab
+				|	|- NewCup_Animated.prefab
+				|	|- Enemy1.prefab
+				|	|- Cup_FINAL.prefab
+				|	|- Enemy_temporal.prefab
+				|	|- Enemy2.prefab
