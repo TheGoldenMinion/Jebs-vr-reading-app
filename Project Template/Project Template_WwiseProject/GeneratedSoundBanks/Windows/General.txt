@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3776612809	Play_Example01			\Default Work Unit\Play_Example01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	849942311	Example01	D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Windows\SFX\Example01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Example01		2097216
+

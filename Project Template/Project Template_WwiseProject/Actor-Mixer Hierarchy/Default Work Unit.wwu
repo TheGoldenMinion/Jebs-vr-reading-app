@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2F635A3F-B0A4-4E68-B5DD-1401706CA3FC}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2F635A3F-B0A4-4E68-B5DD-1401706CA3FC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Test" ID="{C9F1BC7B-C468-4406-9FA5-68DBF2D0827C}" ShortID="507205628">
+					<ChildrenList>
+						<Sound Name="Example01" ID="{EA4A23BE-E9CE-472D-B979-4D88AB0AAF08}" ShortID="484178879">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Test" ID="{7335A066-AB91-400C-B94A-A0023742123D}" WorkUnitID="{0942876A-8F5D-4B5C-A202-5AA8FB2853C0}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Example01" ID="{3EFCA803-0390-46F5-A612-D21973372BD8}">
+									<Language>SFX</Language>
+									<AudioFile>Example01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849942311"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Example01" ID="{3EFCA803-0390-46F5-A612-D21973372BD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
