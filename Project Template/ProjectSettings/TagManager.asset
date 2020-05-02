@@ -6,6 +6,10 @@ TagManager:
   tags:
   - GhostPoke
   - Hand
+  - Letter_Normal
+  - FxTemporaire
+  - lvlmanager
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
