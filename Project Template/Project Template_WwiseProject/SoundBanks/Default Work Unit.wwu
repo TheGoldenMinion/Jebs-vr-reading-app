@@ -6,6 +6,7 @@
 				<SoundBank Name="General" ID="{996F0978-A2C3-44D7-B065-02FD2B47163C}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Example01" ID="{E37E64A6-A17C-40A7-8832-1C83AF9A6CDB}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play__Crab_Fight_Music" ID="{E0D3A2C3-D19E-4BE3-906C-818EB2BDD96C}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

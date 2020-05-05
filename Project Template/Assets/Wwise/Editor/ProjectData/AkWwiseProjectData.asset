@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec952a08e639ce418cca15910f648db7
     GuidInternal: 
-    m_lastTime: -8586144564838782161
+    m_lastTime: -8586129007357890664
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 74b916135bad9e4a84e9d502d2407312
     GuidInternal: 
-    m_lastTime: -8586144564838692400
+    m_lastTime: -8586129007358149975
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c0916baf7a098d45ab9e2730c194a84b
     GuidInternal: 
-    m_lastTime: -8586144522092448339
+    m_lastTime: -8586128989469780263
     List:
     - name: General
       guid: 78096f99c3a2d744b06502fd2b47163c
@@ -56,8 +56,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a9c402aca8292d47b38c04fe185fc76d
     GuidInternal: 
-    m_lastTime: -8586144522092568029
+    m_lastTime: -8586128989469889968
     List:
+    - name: Play__Crab_Fight_Music
+      guid: c3a2d3e09ed1e34b906c818eb2bdd96c
+      id: 459954740
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play__Crab_Fight_Music
+        ObjectType: 3
+      Path: Default Work Unit\Play__Crab_Fight_Music
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Example01
       guid: a6647ee37ca1a74088321c83af9a6cdb
       id: 3776612809
@@ -75,28 +87,28 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: caf43a284c5091429a6cbfb8a11e71a1
     GuidInternal: 
-    m_lastTime: -8586144564839081352
+    m_lastTime: -8586129007358608746
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: fe3789e668be0b4aaf81bda49eaf0f52
     GuidInternal: 
-    m_lastTime: -8586144564839450370
+    m_lastTime: -8586129007357900642
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 67dea5548e9b50489acb0b3f373e196a
     GuidInternal: 
-    m_lastTime: -8586144564838941732
+    m_lastTime: -8586129007357890664
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 371161383d133545aaefc25777cd4687
     GuidInternal: 
-    m_lastTime: -8586144564839191060
+    m_lastTime: -8586129007357890664
     List: []
   ExpandedItems:
   - /Project Template_WwiseProject

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,6 +16,14 @@
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="459954740" Name="Play__Crab_Fight_Music" ObjectPath="\Events\Default Work Unit\Play__Crab_Fight_Music" MaxAttenuation="5.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="579986102" Language="SFX">
+							<ShortName>_Crab_Fight_Music.wav</ShortName>
+							<Path>SFX\_Crab_Fight_Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3776612809" Name="Play_Example01" ObjectPath="\Events\Default Work Unit\Play_Example01" MaxAttenuation="5.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="849942311" Language="SFX">
