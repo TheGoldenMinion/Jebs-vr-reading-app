@@ -25,6 +25,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_PopLetterBad_01" ID="{B0DE5612-A24A-4FCC-A280-130E8B084259}">
+					<ChildrenList>
+						<Action Name="" ID="{A2566927-D1F8-4197-BE00-1B0B5286214C}" ShortID="727656411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PopLetterBad_01" ID="{F78CDEF2-604B-4784-8652-2D32297A9B4A}" WorkUnitID="{AD1A9BAA-042D-4AFA-95E9-CF7CA4644E2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_PopLetterGood_01" ID="{83DB97A3-61B8-4FED-8A2D-F347DAC52C66}">
+					<ChildrenList>
+						<Action Name="" ID="{C79C8EE3-AE1F-48A6-9B71-06C72F7971F1}" ShortID="489119340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PopLetterGood_01" ID="{D00C61E9-2DDF-499C-99DF-1E472F2E20FD}" WorkUnitID="{AD1A9BAA-042D-4AFA-95E9-CF7CA4644E2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_CannonFire_01" ID="{DF61201E-3DAC-462F-9CED-9CC1F4871A25}">
+					<ChildrenList>
+						<Action Name="" ID="{E9C306C4-23B2-4F44-9145-2EAD7C34B74D}" ShortID="329741522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_CannonFire_01" ID="{DAD4CA71-148E-49DA-83FA-93E378746971}" WorkUnitID="{AD1A9BAA-042D-4AFA-95E9-CF7CA4644E2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

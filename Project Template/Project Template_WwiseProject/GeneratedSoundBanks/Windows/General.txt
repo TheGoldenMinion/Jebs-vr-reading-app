@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3776612809	Play_Example01			\Default Work Unit\Play_Example01	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	579986102	_Crab_Fight_Music	C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Windows\SFX\_Crab_Fight_Music_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\_Crab_Fight_Music		3949780
-	849942311	Example01	C:\Unity Projects\Jebs-vr-reading-app-master\Jebs-vr-reading-app\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Windows\SFX\Example01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Example01		2097216
+	579986102	_Crab_Fight_Music	D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Windows\SFX\_Crab_Fight_Music_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\_Crab_Fight_Music		3949780
+	849942311	Example01	D:\GitHub Repos\Jebs-vr-reading-app\Project Template\Project Template_WwiseProject\.cache\Windows\SFX\Example01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Example01		2097216
 

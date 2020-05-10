@@ -11,6 +11,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Spaceship" ID="{271B633B-540B-44B3-B09A-EAA08AB67191}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_CannonFire_01" ID="{DF61201E-3DAC-462F-9CED-9CC1F4871A25}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_PopLetterBad_01" ID="{B0DE5612-A24A-4FCC-A280-130E8B084259}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_PopLetterGood_01" ID="{83DB97A3-61B8-4FED-8A2D-F347DAC52C66}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Beach" ID="{321961B2-5220-43AC-81D8-F12D2A11BEE9}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
