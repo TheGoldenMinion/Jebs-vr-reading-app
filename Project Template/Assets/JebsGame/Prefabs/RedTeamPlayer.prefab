@@ -4918,6 +4918,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1127944061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7777567249951555149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c715c2bacbf81914bbb8517cd2f9d80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 1
+  node: 5
+  duration: 0.02
 --- !u!135 &1127944064
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5022,35 +5037,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverExit: 1
   m_HapticHoverExitIntensity: 0.25
   m_HapticHoverExitDuration: 0.125
---- !u!114 &1127944061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7777567249951555149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c715c2bacbf81914bbb8517cd2f9d80b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intensity: 1
-  node: 5
-  duration: 0.02
---- !u!114 &1092506630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8952798980998882216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86750b9c9309cfc4f9cab1040d291d92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  receiver: {fileID: 8950847997632527022}
-  node: 5
 --- !u!114 &1275282873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5065,6 +5051,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   receiver: {fileID: 8950847997549882139}
   node: 4
+--- !u!114 &1092506630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8952798980998882216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86750b9c9309cfc4f9cab1040d291d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receiver: {fileID: 8950847997632527022}
+  node: 5
 --- !u!1001 &8950937960871574879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5281,7 +5281,7 @@ PrefabInstance:
     - target: {fileID: 1717954561456925282, guid: 3473a9ca2b6bef2458a4f52e10903b7d,
         type: 3}
       propertyPath: m_Name
-      value: XRRig_Demo
+      value: RedTeamPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561456925283, guid: 3473a9ca2b6bef2458a4f52e10903b7d,
         type: 3}
