@@ -13,7 +13,8 @@ using UnityEngine.SceneManagement;
 //                   GameManager.Instance.methodToCall();
 //--------------------------------------------------------------------------------------
 
-public enum GameState { LAGOON, SPACESHIP, SEQLVL }
+    //=====================THE DIFFERENT GAME STATES===================================
+public enum GameState { LAGOON, SPACESHIP, SEQLVL }  //      THESE ARE PLACEHOLDERS
 
 public delegate void OnStateChangeHandler();
 
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
     // Declare properties
 
     private string activeLevel;         // Active level
-    private string name;                // Characters name
+    private string charname;                // Characters name
     private string handedness;          // Players Handedness
 
     private int vit;                        // Characters Vitality
@@ -100,43 +101,7 @@ public class GameManager : MonoBehaviour
     {
         GameManager.instance = null;
     }
-    //--------------------------------------------------------------------------------------
-    //CREATE A DICTIONARY WITH INTEGER VALUES FOR ALL LETTERS
-    private void PopulateDictionary()
-    {
-        LettersDiction.Add("A", 0);
-        LettersDiction.Add("B", 1);
-        LettersDiction.Add("C", 2);
-        LettersDiction.Add("D", 3);
-        LettersDiction.Add("E", 4);
-        LettersDiction.Add("F", 5);
-        /*       LettersDiction.Add("g", 6);
-               LettersDiction.Add("h", 7);
-               LettersDiction.Add("i", 8);
-               LettersDiction.Add("j", 9);
-               LettersDiction.Add("k", 10);
-               LettersDiction.Add("l", 11);
-               LettersDiction.Add("m", 12);
-               LettersDiction.Add("n", 13);
-               LettersDiction.Add("o", 14);
-               LettersDiction.Add("p", 15);
-               LettersDiction.Add("q", 16);
-               LettersDiction.Add("r", 17);
-               LettersDiction.Add("s", 18);
-               LettersDiction.Add("t", 19);
-               LettersDiction.Add("u", 20);
-               LettersDiction.Add("v", 21);
-               LettersDiction.Add("w", 22);
-               LettersDiction.Add("x", 23);
-               LettersDiction.Add("y", 24);
-               LettersDiction.Add("z", 25); */
-        LettersDiction.Add("a", 26);
-        LettersDiction.Add("b", 27);
-        LettersDiction.Add("c", 28);
-        LettersDiction.Add("d", 29);
-        LettersDiction.Add("e", 30);
-        LettersDiction.Add("f", 31);
-    }
+
     //--------------------------------------------------------------------------------------
 
     //-------------------------INIT METHOD---------------------------------------------------
@@ -147,7 +112,7 @@ public class GameManager : MonoBehaviour
         // Set default properties (THESE ARE PLACEHOLDERS):
 
         activeLevel = "newRedScene";
-        name = "Jeb";
+        charname = "Jeb";
         vit = 5;
         exp = 0;
 
@@ -180,13 +145,13 @@ public class GameManager : MonoBehaviour
 
 
     // ---------------------------------------------------------------------------------------------------
-    // getName()
+    // getCharName()
     // --------------------------------------------------------------------------------------------------- 
     // Returns the characters name
     // ---------------------------------------------------------------------------------------------------
-    public string getName()
+    public string getCharName()
     {
-        return name;
+        return charname;
     }
 
 
@@ -210,5 +175,28 @@ public class GameManager : MonoBehaviour
         return exp;
     }
 
-
+    //--------------------------------------------------------------------------------------
+    //CREATE A DICTIONARY WITH INTEGER VALUES FOR ALL LETTERS
+    //--------------------------------------------------------------------------------------
+    private void PopulateDictionary()
+    {
+        //----------Upper Case-----------------
+        //-------------------------------------
+        LettersDiction.Add("A", 0);
+        LettersDiction.Add("B", 1);
+        LettersDiction.Add("C", 2);
+        LettersDiction.Add("D", 3);
+        LettersDiction.Add("E", 4);
+        LettersDiction.Add("F", 5);
+        LettersDiction.Add("G", 6);
+        //----------Lower Case-----------------
+        //-------------------------------------
+        LettersDiction.Add("a", 26);
+        LettersDiction.Add("b", 27);
+        LettersDiction.Add("c", 28);
+        LettersDiction.Add("d", 29);
+        LettersDiction.Add("e", 30);
+        LettersDiction.Add("f", 31);
+        LettersDiction.Add("g", 32);
+    }
 }
