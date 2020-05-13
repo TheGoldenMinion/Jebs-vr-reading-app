@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class gun_shoot : MonoBehaviour
 {
     public Transform shootAnchor;
@@ -68,6 +69,7 @@ public class gun_shoot : MonoBehaviour
 
 
         }
+
     }
         public void ShootBullet()
         {

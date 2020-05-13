@@ -103,7 +103,6 @@ MonoBehaviour:
   shootAnchor: {fileID: 1289863915911301851}
   bullet: {fileID: 8031563295914199395, guid: 6f223aefa22141b4198d26fb79f6bb79, type: 3}
   flash: {fileID: 100018, guid: a40b64bf23366dc42a892af2c6ff6140, type: 3}
-  shootButton: 2097152
 --- !u!82 &7078028474384596881
 AudioSource:
   m_ObjectHideFlags: 0
@@ -342,7 +341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6593057439742313056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.04, z: -0.05}
+  m_LocalPosition: {x: 0, y: 0.0807, z: -0.0656}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1295336145196600897}
