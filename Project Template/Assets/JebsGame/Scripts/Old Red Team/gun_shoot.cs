@@ -9,7 +9,7 @@ public class gun_shoot : MonoBehaviour
     public GameObject flash;
 
     Animator anim;
-    public OVRInput.Button shootButton;
+//    public OVRInput.Button shootButton;
 
     private bool stickDownLast = false;
 
@@ -31,42 +31,54 @@ public class gun_shoot : MonoBehaviour
         {
             Debug.Log("empty animator");
         }
+        /*   
+         *   ================================OLD CODE=========================
+         *   
+                //Check which hand is holding this blaster
+               if (gameObject.name == "SciFiHandGun_Right")
+                {
+                    if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+                    {
+                        Instantiate(bullet, shootAnchor.position, shootAnchor.rotation);
+                        Instantiate(flash, shootAnchor.position, shootAnchor.rotation);
+                        anim.Play("pistolKick");
+                        audio.playRandomBlastSound();
+                        PlayShoot(true);
+                    }
+                }
 
-        //Check which hand is holding this blaster
-       if (gameObject.name == "SciFiHandGun_Right")
-        {
-            if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
-            {
-                Instantiate(bullet, shootAnchor.position, shootAnchor.rotation);
-                Instantiate(flash, shootAnchor.position, shootAnchor.rotation);
-                anim.Play("pistolKick");
-                audio.playRandomBlastSound();
-                PlayShoot(true);
-            }
-        }
 
-
-        if (gameObject.name == "SciFiHandGun_Left")
-        {
-            if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
-            {
-                Instantiate(bullet, shootAnchor.position, shootAnchor.rotation);
-                Instantiate(flash, shootAnchor.position, shootAnchor.rotation);
-                anim.Play("pistolKick");
-                audio.playRandomBlastSound();
-                PlayShoot(false);
-            }
-        }
-
+                if (gameObject.name == "SciFiHandGun_Left")
+                {
+                    if (OVRInput.GetDown(OVRInput.RawButton.LIndexTrigger))
+                    {
+                        Instantiate(bullet, shootAnchor.position, shootAnchor.rotation);
+                        Instantiate(flash, shootAnchor.position, shootAnchor.rotation);
+                        anim.Play("pistolKick");
+                        audio.playRandomBlastSound();
+                        PlayShoot(false);
+                    }
+                } 
+         * ============================================================================
+         */
         if (Input.GetKeyDown(KeyCode.B))
         {
-            
-                audio.playRandomBlastSound();
 
-            
+            ShootBullet();
+
+
+        }
+    }
+        public void ShootBullet()
+        {
+            Instantiate(bullet, shootAnchor.position, shootAnchor.rotation);
+            Instantiate(flash, shootAnchor.position, shootAnchor.rotation);
+            anim.Play("pistolKick");
+            audio.playRandomBlastSound();
+            PlayShoot(true);
         }
 
-         void PlayShoot(bool rightHanded)
+        void PlayShoot(bool rightHanded)
         {
             if (rightHanded) StartCoroutine(Haptics(0.8f, 0.7f, 0.3f, true, false));
             else StartCoroutine(Haptics(0.8f, 0.7f, 0.3f, false, true));
@@ -85,4 +97,4 @@ public class gun_shoot : MonoBehaviour
         }
 
     }
-}
+
