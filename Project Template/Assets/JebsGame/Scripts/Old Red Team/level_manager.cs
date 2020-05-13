@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class level_manager : MonoBehaviour
 {
     
-    public  string letterLvl;
+    public  string letterLvl = "A";
     Scene LoadedScene;
     letter_spawner letterSpawnScript;
 
