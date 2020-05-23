@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{82F01272-1101-4581-BC9E-1087C6D76238}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Dialog" ID="{82F01272-1101-4581-BC9E-1087C6D76238}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Beach" ID="{5CCD4DB7-9B54-41E1-8ABA-CBDFABAB0C49}" ShortID="1027521476">
+					<ChildrenList>
+						<ActorMixer Name="2D Dialog" ID="{1B2682A9-34C1-48BE-8636-7FA44933E91F}" ShortID="715315715">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_Dialog" ID="{CEA8EA19-5E91-4BB6-92C9-B6B321C43175}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D Dialog" ID="{F88F86F8-D3F6-4EBF-9652-27038AEB40F6}" ShortID="1049869641">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_Dialog" ID="{D299AB54-3FE9-4AD6-AD93-F3D060BFBD30}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General" ID="{CBC43F3B-31C7-49C1-A2DF-364E5A78978F}" ShortID="206975680">
+					<ChildrenList>
+						<ActorMixer Name="2D Dialog" ID="{13319169-1C2B-4ED7-B94F-7CC508778B7B}" ShortID="994541710">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_Dialog" ID="{CEA8EA19-5E91-4BB6-92C9-B6B321C43175}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D Dialog" ID="{8740C6A6-22B5-45AB-828C-EB124624C537}" ShortID="236811848">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_Dialog" ID="{D299AB54-3FE9-4AD6-AD93-F3D060BFBD30}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Spaceship" ID="{27644BE9-6AD6-4DF9-8FDE-B9A60CCA9E02}" ShortID="695055912">
+					<ChildrenList>
+						<ActorMixer Name="2D Dialog" ID="{A751E33C-30DD-466C-807A-6D5F9E25C9E2}" ShortID="1005918003">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_Dialog" ID="{CEA8EA19-5E91-4BB6-92C9-B6B321C43175}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D Dialog" ID="{7A44992C-AA66-4395-B518-3683AB254A55}" ShortID="22091396">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_Dialog" ID="{D299AB54-3FE9-4AD6-AD93-F3D060BFBD30}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1599D8CC-A2DC-405D-A27F-BA2258822BE3}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Cinematic" ID="{1599D8CC-A2DC-405D-A27F-BA2258822BE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Cinematic" ID="{CBAEF9FF-A3FC-4A6A-A165-B9A1B48B7798}" ShortID="80249945">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Cinematic" ID="{CEC54A29-89A1-443B-9CA6-C074E72D3056}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
