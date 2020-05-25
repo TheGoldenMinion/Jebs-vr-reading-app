@@ -315,8 +315,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.52, y: 0.28, z: 0.11}
-  m_Center: {x: -0.000000014901159, y: -0.00000047683716, z: -0.00000011920929}
+  m_Size: {x: 0.64401215, y: 0.31958547, z: 0.196595}
+  m_Center: {x: -0.000000016298143, y: -0.0000000037252894, z: 3.6381835e-12}
 --- !u!1 &6593057439742313056
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +357,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8ec27b9fa858cc6428814a59ea18bd18, type: 3}
       propertyPath: m_Name
       value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8ec27b9fa858cc6428814a59ea18bd18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8ec27b9fa858cc6428814a59ea18bd18, type: 3}
       propertyPath: m_LocalPosition.x
