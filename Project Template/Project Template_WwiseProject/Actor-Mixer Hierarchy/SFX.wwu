@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AD1A9BAA-042D-4AFA-95E9-CF7CA4644E2A}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{AD1A9BAA-042D-4AFA-95E9-CF7CA4644E2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{9F25A6D0-2530-4942-9758-8ECEF8D6116D}" ShortID="838760727">
+					<ChildrenList>
+						<ActorMixer Name="2D SFX" ID="{FBC7ED06-0587-40F2-9D14-07917E58608D}" ShortID="953622952">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_SFX" ID="{E996060F-0194-4EE9-BC06-F3F0018FC3B0}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D SFX" ID="{DFA229B4-4E29-4A1A-97DF-D698AE558E93}" ShortID="141072492">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_SFX" ID="{A31DAF25-5345-4CA6-A32E-5F8E7026112B}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Spaceship" ID="{41E2312A-0FF9-4F61-8818-BEA6C4B78418}" ShortID="661912678">
+					<ChildrenList>
+						<ActorMixer Name="2D SFX" ID="{69CB99A3-7AF4-4963-BBDD-7D7DEB47F25B}" ShortID="839689266">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_SFX" ID="{E996060F-0194-4EE9-BC06-F3F0018FC3B0}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D SFX" ID="{E2624BCB-EAED-48BE-AD6D-8B467B60DEF4}" ShortID="492424463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_SFX" ID="{A31DAF25-5345-4CA6-A32E-5F8E7026112B}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Spaceship_Reverb" ID="{CF98A8FB-F3A6-47EC-80F6-4718CE96D5A6}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="LetterPops" ID="{4799F3FB-014F-447D-96F7-FD1283A1A34C}" ShortID="478162681">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="73"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="LetterPops" ID="{89DEBD7D-9530-4B2C-9323-F1F0E3826C97}" WorkUnitID="{0942876A-8F5D-4B5C-A202-5AA8FB2853C0}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_PopLetterGood_01" ID="{D00C61E9-2DDF-499C-99DF-1E472F2E20FD}" ShortID="407545056">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{772892B8-6616-4ADF-AF2A-B5D24F3A6E52}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="505"/>
+																	<Property Name="Min" Type="Real64" Value="-202"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D_SFX" ID="{A31DAF25-5345-4CA6-A32E-5F8E7026112B}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Spaceship_Reverb" ID="{CF98A8FB-F3A6-47EC-80F6-4718CE96D5A6}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_PopLetterGood_01" ID="{57F5B7C3-2309-4B83-9881-8C2ADAC77B75}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_PopLetterGood_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587292714"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_PopLetterGood_01" ID="{57F5B7C3-2309-4B83-9881-8C2ADAC77B75}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_PopLetterBad_01" ID="{F78CDEF2-604B-4784-8652-2D32297A9B4A}" ShortID="66844436">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{446D5B9A-9639-4813-8E5C-9F7E97BBDFAB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="253"/>
+																	<Property Name="Min" Type="Real64" Value="-202"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="3D_SFX" ID="{A31DAF25-5345-4CA6-A32E-5F8E7026112B}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Spaceship_Reverb" ID="{CF98A8FB-F3A6-47EC-80F6-4718CE96D5A6}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_PopLetterBad_01" ID="{D82CB459-59ED-4904-9005-6F2552689DF6}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_PopLetterBad_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1065915354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_PopLetterBad_01" ID="{D82CB459-59ED-4904-9005-6F2552689DF6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="LetterCannons" ID="{701008E0-EC47-4CEB-9A3C-C19A32BD257E}" ShortID="545807803">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="LetterCannons" ID="{B9A9E9AB-AB56-461C-A010-55A320B19D9C}" WorkUnitID="{0942876A-8F5D-4B5C-A202-5AA8FB2853C0}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_CannonFire_01" ID="{DAD4CA71-148E-49DA-83FA-93E378746971}" ShortID="1023998904">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_CannonFire_01" ID="{5D46A62D-C887-4853-9972-CAF296C5E990}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_CannonFire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="651156814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_CannonFire_01" ID="{5D46A62D-C887-4853-9972-CAF296C5E990}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Beach" ID="{8D490279-B2FD-4F73-972B-69DFAAD08997}" ShortID="152010934">
+					<ChildrenList>
+						<ActorMixer Name="2D SFX" ID="{95D20537-1ECB-4B4A-B757-416CF90D69CF}" ShortID="567184708">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="2D_SFX" ID="{E996060F-0194-4EE9-BC06-F3F0018FC3B0}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="3D SFX" ID="{F26B0415-AB92-4D7E-B69B-472E5A16F03B}" ShortID="891607124">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EBF493FB-4BA7-4FA6-9B3D-F98A798C0BCA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="3D_SFX" ID="{A31DAF25-5345-4CA6-A32E-5F8E7026112B}" WorkUnitID="{1316B974-AD5B-4A9E-84E9-D502D2407312}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

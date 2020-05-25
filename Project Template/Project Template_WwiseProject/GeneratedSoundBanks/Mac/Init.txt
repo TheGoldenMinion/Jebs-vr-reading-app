@@ -1,0 +1,21 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	355137661	2D Audio			\Default Work Unit\Master Audio Bus\2D Audio	
+	472226230	2D_Dialog			\Default Work Unit\Master Audio Bus\2D Audio\2D_Dialog	
+	1838596016	Cinematic			\Default Work Unit\Master Audio Bus\2D Audio\Cinematic	
+	2625178604	3D_SFX			\Default Work Unit\Master Audio Bus\3D Audio\3D_SFX	
+	3361705099	3D_Dialog			\Default Work Unit\Master Audio Bus\3D Audio\3D_Dialog	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3940806919	2D_SFX			\Default Work Unit\Master Audio Bus\2D Audio\2D_SFX	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\2D Audio\Music	
+	4122844158	3D Audio			\Default Work Unit\Master Audio Bus\3D Audio	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2645524322	Spaceship_Reverb			\Default Work Unit\Master Audio Bus\3D Audio\Spaceship_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2645524322	Spaceship_Reverb	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

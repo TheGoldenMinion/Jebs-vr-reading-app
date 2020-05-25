@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF6B91C0-097A-458D-AB9E-2730C194A84B}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{AF6B91C0-097A-458D-AB9E-2730C194A84B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="General" ID="{996F0978-A2C3-44D7-B065-02FD2B47163C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Example01" ID="{E37E64A6-A17C-40A7-8832-1C83AF9A6CDB}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play__Crab_Fight_Music" ID="{E0D3A2C3-D19E-4BE3-906C-818EB2BDD96C}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Spaceship" ID="{271B633B-540B-44B3-B09A-EAA08AB67191}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_CannonFire_01" ID="{DF61201E-3DAC-462F-9CED-9CC1F4871A25}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_PopLetterBad_01" ID="{B0DE5612-A24A-4FCC-A280-130E8B084259}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_PopLetterGood_01" ID="{83DB97A3-61B8-4FED-8A2D-F347DAC52C66}" WorkUnitID="{AC02C4A9-29A8-472D-B38C-04FE185FC76D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Beach" ID="{321961B2-5220-43AC-81D8-F12D2A11BEE9}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
